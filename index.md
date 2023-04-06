@@ -8,12 +8,15 @@ _hello_ __I'm__
 - apples
 - bananas
 - mangos
+
 Horizontal rule:
 ---
 1. one
 2. two
 3. three
+
 `Inline code` with backticks
+
 ```
 hello
 hello
