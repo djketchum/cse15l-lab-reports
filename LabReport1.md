@@ -39,6 +39,7 @@ After that, it will prompt you for the password you created with your cse15l acc
 
 Lastly, you're gonna try inputting some commands now that you're logged in. 
 You can try `cd` , `ls` , `pwd`
+
 This is what it should look like: 
 ![Image](eighth.png)
 
