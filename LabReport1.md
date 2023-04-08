@@ -18,7 +18,8 @@ This will open up a screen that looks like this:
 ![Image](third.png)
 From here, press Download. There is one step you have to manually change, which is shown below.
 ![Image](fourth.png)
-So, make sure you switch the program Git will be used with to VS Code as shwon above.
+
+Make sure you switch the program Git will be used with to VS Code as shwon above, or the rest of the process won't work.
 
 Now, we're going to open up a terminal in VS Code by pressing the Terminal option at the very top menu bar on VS Code and pressing New Terminal.
 From there, press Ctrl + Shift + P, which should get you looking at something like this:
