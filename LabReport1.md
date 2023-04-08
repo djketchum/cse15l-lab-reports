@@ -24,7 +24,7 @@ Make sure you switch the program Git will be used with to VS Code as shwon above
 Now, we're going to open up a terminal in VS Code by pressing the Terminal option at the very top menu bar on VS Code and pressing New Terminal.
 From there, press Ctrl + Shift + P, which should get you looking at something like this:
 ![Image](fifth.png)
-From here, type in Select Default Profile into the search and select that option when it comes up.
+From here, type in `Select Default Profile` into the search and select that option when it comes up.
 Now, select GitBash, as seen below.
 ![Image](sixth.png)
 
