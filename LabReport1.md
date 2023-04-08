@@ -12,7 +12,8 @@ There's no need to update anything, just click your way through until it downloa
 Then, you should see a page like this:
 ![Image](second.png)
 
-Next, because you're on Windows you need to download Git at this link [Link](https://gitforwindows.org/)
+Next, because you're on Windows you need to download Git at this link: [Link](https://gitforwindows.org/)
+
 This will open up a screen that looks like this: 
 ![Image](third.png)
 From here, press Download. There is one step you have to manually change, which is shown below.
