@@ -1,6 +1,8 @@
- # Lab Report 1
+ Lab Report 1
+ ============
  
- ## Downloading VS Code for Windows: 
+ Downloading VS Code for Windows: 
+ -------------------------------
  
  First, open [Link](https://code.visualstudio.com/)
  
