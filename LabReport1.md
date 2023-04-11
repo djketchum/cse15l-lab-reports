@@ -1,7 +1,5 @@
- Lab Report 1
- ***
+ **Lab Report 1**
 
- 
  First, to download VS Code, open [Link](https://code.visualstudio.com/)
  
 You will see this page: 
