@@ -1,10 +1,7 @@
  Lab Report 1
  ============
  
- Downloading VS Code for Windows: 
- -------------------------------
- 
- First, open [Link](https://code.visualstudio.com/)
+ First, to download VS Code, open [Link](https://code.visualstudio.com/)
  
 You will see this page: 
 ![Image](first.png)
