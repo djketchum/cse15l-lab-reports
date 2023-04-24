@@ -19,10 +19,10 @@ This will open up a screen that looks like this:
 From here, press Download. There is one step you have to manually change, which is shown below.
 ![Image](fourth.png)
 
-Make sure you switch the program Git will be used with to VS Code as shown above, or the rest of the process won't work.
+__Make sure you switch the program Git will be used with to VS Code as shown above, or the rest of the process won't work.__
 
 # Setting up VSCode 
-Now, we're going to open up a terminal in VS Code by pressing the Terminal option at the very top menu bar on VS Code and pressing New Terminal.
+Now, we're going to open up a terminal in VS Code by pressing the Terminal option from the top menu bar and clicking on New Terminal from the dropdown.
 From there, press Ctrl + Shift + P, which should get you looking at something like this:
 ![Image](fifth.png)
 From here, type in `Select Default Profile` into the search and select that option when it comes up.
