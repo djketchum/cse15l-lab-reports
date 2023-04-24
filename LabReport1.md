@@ -41,9 +41,10 @@ After that, it will prompt you for the password you created with your cse15l acc
 
 # Trying out some commands!
 Lastly, you're gonna try inputting some commands now that you're logged in. 
-You can try `cd` , `ls` , `pwd`, `ls /home/linux/ieng6/cs15lsp23` , `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+You can try `cd` , `ls` , `pwd`, `ls /home/linux/ieng6/cs15lsp23` , and  `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
 Attached are some images of how these commands will run: 
+
 ![Image](eighth.png)
 ![Image](ninth.png)
 ![Image](tenth.png)
