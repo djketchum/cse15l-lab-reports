@@ -11,21 +11,6 @@ In this screenshot, the main method runs when the port is being created for the 
 In this screenshot, the server is running so the main method is not called, because the main method serves to open the server but we are still using the same one. The first method to be called is handleRequest, whose URI url object is now updated to the current URL shown in the above. This run updates the string somp to include "HOLA", so somp is now "\n + Hello + \n + HOLA".
 
 # Part 2: Debugging
-Code before debugging:
-```
-static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    for(double num: arr) {
-      if(num < lowest) { lowest = num; }
-    }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / (arr.length - 1);
-  }
-```
 
 Test that works: 
 ```
@@ -45,5 +30,21 @@ Test that doesn't work at first:
   }
   ```
   
-  Symptom: 
-  ![Image](four.png)
+Symptom: (the top test which expects a value of 6.0 is the one that's failing and producing the symptom) 
+![Image](four.png)
+  
+Code before debugging:
+```
+static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+```
