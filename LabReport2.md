@@ -25,13 +25,13 @@ Test that doesn't work at first:
 ```
  @Test
   public void testAvgWithoutLowest() {
-    double[] inputt = {6.0,8.0,2.0,2,0,4.0};
+    double[] inputt = {6.0,8.0,2.0,2.0,4.0};
     assertEquals(6.0,ArrayExamples.averageWithoutLowest(inputt),1.0);
   }
   ```
   
 Symptom: (the top test which expects a value of 6.0 is the one that's failing and producing the symptom) 
-![Image](four.png)
+
   
 Code before debugging:
 ```
