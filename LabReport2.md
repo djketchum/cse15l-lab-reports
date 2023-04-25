@@ -44,3 +44,6 @@ Test that doesn't work at first:
     assertEquals(6.0,ArrayExamples.averageWithoutLowest(inputt),1.0);
   }
   ```
+  
+  Symptom: 
+  ![Image](four.png)
