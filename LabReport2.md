@@ -11,6 +11,7 @@ In this screenshot, the main method runs when the port is being created for the 
 In this screenshot, the server is running so the main method is not called, because the main method serves to open the server but we are still using the same one. The first method to be called is handleRequest, whose URI url object is now updated to the current URL shown in the above. This run updates the string somp to include "HOLA", so somp is now "\n + Hello + \n + HOLA".
 
 # Part 2: Debugging
+Code before debugging:
 ```
 static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
@@ -26,7 +27,16 @@ static double averageWithoutLowest(double[] arr) {
   }
 ```
 
+Test that works: 
+```
+@Test
+  public void testAvgWithoutLowestt() {
+    double[] input = {6.0,2.0,7.0};
+    assertEquals(6.5,ArrayExamples.averageWithoutLowest(input),1.0);
+  }
+```
 
+Test that doesn't work at first:
 ```
  @Test
   public void testAvgWithoutLowest() {
