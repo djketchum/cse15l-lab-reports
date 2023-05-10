@@ -26,6 +26,6 @@ This information was found on ChatGPT.
 ## -exec
 The -exec command is similar to the -ok command, except that it doesn't prompt the user for input before running a given command on all the files/directories signified. 
 ![Image](siete.png)
-Here, I used `find 911report -size -30k -exec cat {} \;` . So, find is looking inside the directory 911report for files/directories of size UNDER 30 kilabytes and running the command cat on them, which prints out their contents into the terminal. The cat command does not work for directories, which is shown in the first line of output where the terminal prints cat: 911report: Is a directory, signifying it could not run the command on it. 
+Here, I used `find 911report -size -30k -exec cat {} \;` . So, find is looking inside the directory 911report for files/directories of size UNDER 30 kilabytes and running the command cat on them, which prints out their contents into the terminal. The cat command does not work for directories, which is shown in the first line of output where the terminal prints `cat: 911report: Is a directory` , signifying it could not run the command on it. 
 ![Image](ocho.png)
 In this case find is looking in the directory biomed for files/directories under 10 kilabytes and cat'ing them to print their contents into the terminal. Just as before, the cat function won't work on directories, which the terminal will show. Otherwise, the files under 10k size have their contents printed onto the command line. This information regarding -exec is from ChatGPT.
