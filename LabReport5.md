@@ -12,6 +12,8 @@ For some reason the directory cannot be found so I can not change my file path t
 ![Image](otro.png)
 ![Image](este.png)
 
+
+
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
 The failure-inducing input is the command I ran which is shown in the screenshot above, and is simply running the grade.sh file using one of the example repositories provided on the course website. The current directory is the list-examples-grader directory, which is shown to contain the grading-area directory when doing an ls command, so I'm not sure why the cd command isn't working. 
