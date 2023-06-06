@@ -19,6 +19,9 @@ The failure-inducing input is the command I ran which is shown in the screenshot
 ## Step 2: TA Response
 Hi, thanks for the information. It looks like you may be confused on what directory you are actually in by the time you hit the line in your file which produces the bug, which is the `cd grading-area` line. Previously in your file you used the cd command to switch into the sub-directory student-submission, so that is the directory you are currently running in when you reach that line. This means you are trying to use cd from one subdirectory to another subdirectory, which is causing the error since the subdirectory student-submission cannot directly access the subdirectory grading-area. How can you change the syntax around your cd grading-area command so that you are checking in a place where it will be visible, and not in the subdirectory you are currently in? (Hint: you used the correct syntax earlier in the file)
 
+## Step 3: Student Updated Screenshot
+![Image](2023-06-05(6).png)
+
 
 
 
