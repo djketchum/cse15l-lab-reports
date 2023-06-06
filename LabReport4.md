@@ -24,4 +24,7 @@ I then pressed x 1 time to delete the 1, and pressed i 1 time to enter insert mo
 ![Image](we.png)
 I typed `bash test.sh` into the command line to show that the tests were running fine.
   
+## Step 9
+I first entered `git status` <Enter>, which showed me that I was on branch main, and that there was two changed files whose changes had not been committed. Although there was only one file, ListExamples.java, which should have been edited, I also made and removed an edit to ListExamples.java at first, which is why that message appeared. I then entered into the command line `git add ListExamples.java` to add the changes in this file to the list of commits to be pushed to the origin. I reentered `git status` to see that the changes I had committed using `git add` had successfully been added to the changes to be committed. I then entered `g ti commit` into the command line, which opened up vim. I pressed i once to enter insert mode, then entered `Committing the two java files ListExamples and ListExamplesTests.` I pressed <Esc> to exit, then :wq! to save and quit. 
+  
 
