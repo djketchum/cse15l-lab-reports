@@ -26,8 +26,16 @@ I then pressed `x` 1 time to delete the 1, and pressed `i` 1 time to enter inser
 I typed `bash test.sh` into the command line to show that the tests were running fine.
   
 ## Step 9
-I first entered `git status` <Enter>, which showed me that I was on branch main, and that there was two changed files whose changes had not been committed. Although there was only one file, ListExamples.java, which should have been edited, I also made and removed an edit to ListExamples.java at first, which is why that message appeared. I then entered into the command line `git add ListExamples.java` to add the changes in this file to the list of commits to be pushed to the origin. I reentered `git status` to see that the changes I had committed using `git add` had successfully been added to the changes to be committed. I then entered `g ti commit` into the command line, which opened up vim. I pressed i once to enter insert mode, then entered `Committing the two java files ListExamples and ListExamplesTests.` I pressed <Esc> to exit, then :wq! to save and quit. 
+![Image](noog.png)
+
+I first entered `git status` <Enter>, which showed me that I was on branch main, and that there was two changed files whose changes had not been committed. Although there was only one file, ListExamples.java, which should have been edited, I also made and removed an edit to ListExamplesTests.java at first, which is why that message appeared. I then entered into the command line `git add ListExamples.java` to add the changes in this file to the list of commits to be pushed to the origin. 
+
+  ![Image](og.png)
+  
+I reentered `git status` `<Enter>` to see that the changes I had committed using `git add` had successfully been added to the changes to be committed. I then typed `git commit` `<Enter>`  into the command line, which opened up vim. I pressed `i` once to enter insert mode, then entered `Committing the two java files ListExamples and ListExamplesTests.` I pressed `<Esc>` to exit, then `:wq!` to save and quit. 
+  
 ![Image](lastpic.png)
-I then entered git status, which showed me that my branch was 1 commit ahead of the main branch. I entered into the terminal `git push origin main` and was prompted for my username, to which I typed `djketchum` and pressed `<Enter>` . It then prompted me for my password and I pressed `Ctrl + V` to paste in the personal access token I had create, and `<Enter>` . It then made the push, and I double checked by re-entering `git status` `<Enter>` , which showed that my branch was up to date with main now. 
+  
+I then entered `git status` , which showed me that my branch was 1 commit ahead of the main branch. I entered into the terminal `git push origin main` and was prompted for my username, to which I typed `djketchum` and pressed `<Enter>` . It then prompted me for my password and I pressed `Ctrl + V` to paste in the personal access token I had created, and `<Enter>` . It then made the push, and I double checked by re-entering `git status` `<Enter>` , which showed that my branch was up to date with main now. I didn't get the screenshot of the first time using git push due to technical difficulties so I included the above screenshot showing that the command returns a message saying everything is up to date.
  
 
