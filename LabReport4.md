@@ -15,7 +15,7 @@ To demonstrate that the tests failed, I ran the test file using `bash test.sh <E
   
 ## Step 7
 ![Image](everything.png)
-To edit the code causing the tests to fail, I typed `vim ListExamples.java` `<Enter>` into the command line. This opened up the file in vim. I then typed `/change` which moved the cursor to the comment right above the line which needed to be fixed. I pressed `<Enter>` , then j 1 time and e 1 time to move the cursor to the end of the word 'index1'. 
+To edit the code causing the tests to fail, I typed `vim ListExamples.java` `<Enter>` into the command line. This opened up the file in vim. I then typed `/change` which moved the cursor to the comment right above the line which needed to be fixed. I pressed `<Enter>` , then `j` 1 time and `e` 1 time to move the cursor to the end of the word 'index1'. 
   
 ## Step 7 continued
 ![Image](till.png)
