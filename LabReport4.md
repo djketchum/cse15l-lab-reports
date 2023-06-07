@@ -6,7 +6,7 @@ To load the ieng6 account, I entered `ssh cs15lsp23ic@ieng6.ucsd.edu <Enter>`
 
 ## Step 5
 ![Image](wasnt.png)
-To clone my fork of the lab7 directory, I entered `git clone https://github.com/djketchum/lab7/git` then <Enter> .
+To clone my fork of the lab7 directory, I entered `git clone https://github.com/djketchum/lab7/git` then `<Enter>` .
 
 ## Step 6
 ![Image](my.png)
